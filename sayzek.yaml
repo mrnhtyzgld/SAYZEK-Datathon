@@ -1,0 +1,6 @@
+train: C:\Users\NihatEmreYüzügüldü\PycharmProjects\SAYZEK\data\model_data\train  # Eğitim görüntülerinin klasörü
+val: C:\Users\NihatEmreYüzügüldü\PycharmProjects\SAYZEK\data\model_data\val      # Validation görüntülerinin klasörü
+
+nc: 4  # Toplam sınıf sayısı
+names: ["bina", "yol_kesismi", "futbol_sahasi", "silo"]  # Sınıf isimleri
+class_weights: [1.091599831152385, 14.473880597014926, 323.25, 85.25274725274726]
